@@ -1,0 +1,16 @@
+{
+  "vendor": "vtex",
+  "name": "camp",
+  "version": "0.1.0",
+  "title": "VTEX Camp",
+  "description": "VTEX guides for on-boarding newbies into coding.",
+  "registries": ["smartcheckout"],
+  "builders": {
+    "docs": "1.x"
+  },
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
